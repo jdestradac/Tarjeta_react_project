@@ -1,0 +1,33 @@
+
+.img-div {
+    display: flex;
+    gap: 5px;
+    width: 181px; 
+    max-height: auto;
+}
+
+.img-div img {
+    width: 100%; 
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.img-div:hover{
+    filter: brightness(50%)
+}
+.img-div:hover .img-title {
+    visibility: visible;
+
+    
+}
+.img-title {
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    color: white; 
+    font-size: 16px;
+    filter: brightness(100%);
+    z-index: 4;
+    visibility: hidden;
+}
+
+
